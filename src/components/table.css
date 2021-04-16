@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+table{
+    width: 100%;
+    border-collapse: separate;
+    text-align: left;
+    background-color: lavender;
+    border-spacing: 0 20px;
+    padding: 0px 20px;
+}
+
+.head th{
+   padding: 5px 10px;
+   color: gray;
+  }
+
+  /*--table-heading--*/
+
+  .dataa td{
+      padding: 15px;
+      background-color: white;
+  }
+
+/*--table-row-one--*/
+.data td{
+    background-color: white;
+    padding: 15px;
+}
+
+/*--table-row-two--*/
+
+.personal-detial{
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#topp{
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.btn{
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid black;
+    padding: 3px;
+}
+
+/*--profile-detial--*/
+
+.modal-1{
+    max-width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(138, 128, 128);
+    position: absolute;
+    right: 90px;
+    top: 120px;
+}
+
+.modal-2{
+    max-width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(138, 128, 128);
+    position: absolute;
+    right: 90px;
+    top: 220px;
+}
+.modal-one-section{
+    padding: 15px;
+}
+.modal-one-section p{
+    margin: 10px auto;
+}
+.modal-one-section a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.red{
+    color: red;
+}
+button{
+    font-size: 28px;
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
+.project{
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.gray-clr{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(66, 65, 65);
+}
